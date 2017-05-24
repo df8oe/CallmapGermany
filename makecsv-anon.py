@@ -14,7 +14,7 @@ dbconn = sqlite3.connect('calls.db')
 dbcursor = dbconn.cursor()
 
 #there are overlap locations so we proceed differently than in earlier versions
-dbcursor.execute("SELECT Lng, Lat FROM Callsigns WHERE Geocode =1 GROUP BY Lat, Lng")
+dbcursor.execute("SELECT Lng, Lat FROM Callsigns WHERE Geocode =1 AND Visible IS NOT 0 GROUP BY Lat, Lng")
 res = dbcursor.fetchall()
 
 counter = 0
@@ -27,7 +27,7 @@ with open('calls-anon.csv', 'w') as csvfile:
     for row in res:
     	lng = row[0]
     	lat = row[1]
-    	dbcursor.execute("SELECT Id, Callsign, Class, Name, Street, Zip, City, Lng, Lat FROM Callsigns WHERE Lat="+str(lat)+" AND Lng= "+str(lng))
+    	dbcursor.execute("SELECT Id, Callsign, Class, Name, Street, Zip, City, Lng, Lat, Visible FROM Callsigns WHERE Lat="+str(lat)+" AND Lng= "+str(lng))
     	res = dbcursor.fetchall()
     	label = "<div class='googft-info-window'>"
     	classes = Set([])
@@ -50,14 +50,14 @@ with open('calls-anon.csv', 'w') as csvfile:
     	label = "Anzahl Stationen: " + str(len(res)) + " (" + str(Acount) + " Klasse A, " + str(Ecount) + " Klasse E)"
     	label = label + """
 <br><br>
-Anonymisierte Version, daher keine näheren
-Informationen zu den Stationen sichtbar. Für
-weitere Informationen (Call, Name, Adresse) 
-siehe Rufzeichenliste der BNetzA zu dieser 
+Anonymisierte Version, daher keine näheren<br>
+Informationen zu den Stationen sichtbar. Für<br>
+weitere Informationen (Call, Name, Adresse)<br>
+siehe Rufzeichenliste der BNetzA zu dieser<br>
 Adresse (PDF Suche) oder siehe<br>
 <a href=\"https://thielul.github.io/CallmapGermany/\">https://thielul.github.io/CallmapGermany/</a>
 <br>
-zu Informationen zur Erstellung einer eige-
+zu Informationen zur Erstellung einer eigenen<br>
 nen vollständigen Karte."""
     	
     	label = label + "</div>"
