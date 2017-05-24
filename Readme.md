@@ -12,9 +12,9 @@ Zur Demonstration der Leichtigkeit der Datenverarbeitung mit  Python habe ich mi
 ### Kommentare
 
 * Neben **sehr vielen positiven** Kommentaren gab es vereinzelt Beschwerden bezüglich des Datenschutz. Da ich anderweitig relativ beschäftigt bin und auf die Diskussion keinen Wert lege,  habe ich mich entschlossen, die Karte zu anonymisieren, d.h. keine näheren Informationen zu den Markierungen mehr anzuzeigen. Diese kann man entweder aus der Rufzeichenliste bekommen (nach dem Straßennamen im PDF suchen z.B.) oder indem man sich nach der Anleitung unten eine eigene Karte erstellt. *Kommentar zum Kommentar:* Mir ist unklar, warum die Beschwerden an mich gehen und nicht an die BNetzA, die die Daten öffentlich ins Internet stellt (es wird nur auf § 5 des Urheberrechtsgesetzes hingewiesen, und das besagt, dass amtliche Bekanntmachungen nicht dem Uhrheberrecht unterliegen). Weiterhin hatte man beim Antrag zur Zulassung zum Amateurfunkdienst (und auch jederzeit danach) explizit die Wahl der Veröffentlichung der Daten zuzustimmen oder nicht. 
-1. Ich habe die Daten 1:1 aus der PDF-Datei der Bundesnetzagentur übernommen und keine sonstigen Daten erhoben. Die PDF-Datei ist öffentlich verfügbar. 
-2. Mit der Anleitung unten kann sich jeder selbst die Datenbank und Karte erstellen. Es gibt hier keine Daten zum Download.
-3. Die Vollständigkeit und Aktualität der Karte lässt sich schwer angeben. Die Daten sind aus der PDF-Datei von Mai 2017. Von 76,000 Einträgen sind knapp 5,000 ohne Adressangabe. Wer von den verbleibenden noch aktiv ist oder nicht, kann ich nicht sagen. Einigen Adressen beinhalten Tippfehler oder Zusätze, die das automatische Geocodin haben scheitern lassen. 
+* Ich habe die Daten 1:1 aus der PDF-Datei der Bundesnetzagentur übernommen und keine sonstigen Daten erhoben. Die PDF-Datei ist öffentlich verfügbar. 
+* Mit der Anleitung unten kann sich jeder selbst die Datenbank und Karte erstellen. Es gibt hier keine Daten zum Download.
+* Die Vollständigkeit und Aktualität der Karte lässt sich schwer angeben. Die Daten sind aus der PDF-Datei von Mai 2017. Von 76,000 Einträgen sind knapp 5,000 ohne Adressangabe. Wer von den verbleibenden noch aktiv ist oder nicht, kann ich nicht sagen. Einigen Adressen beinhalten Tippfehler oder Zusätze, die das automatische Geocodin haben scheitern lassen. 
  
 |   | Total  | Class A  | Class E |
 |---|---|---|---|
