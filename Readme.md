@@ -4,7 +4,11 @@ von [Ulrich Thiel, VK2UTL/DK1UT](mailto:u-thiel@gmx.net)
 
 ---
 
-Neben **sehr vielen positiven** Kommentaren gab es vereinzelt Beschwerden bezüglich des Datenschutz. Da ich anderweitig relativ beschäftigt bin und auf die Diskussion keinen Wert lege,  habe ich mich entschlossen, die Karte ganz zu entfernen. Ich möchte betonen, dass es nie einen Download irgendwelcher Daten gab und dass die Daten 1:1 aus der öffentlichen PDF-Datei der Bundesnetzagentur stammten. Die Idee sollte jetzt aber klar sein und mit der Anleitung unten kann sich aber jeder selbst eine vollständige Datenbank und Karte erstellen.  
+
+Neben **sehr vielen positiven** Kommentaren gab es vereinzelt Beschwerden bezüglich des Datenschutz. Die Daten stammten 1:1 aus der öffentlichen PDF-Datei der Bundesnetzagentur, und es gab hier dennoch nie eine Möglichkeit zum Download von Daten. Da ich aber anderweitig relativ beschäftigt bin und auf die Diskussion keinen Wert lege, habe ich mich entschlossen, die Karte ganz zu entfernen. Die Idee sollte jetzt aber klar sein und mit der Anleitung unten kann sich aber jeder selbst eine vollständige Datenbank und Karte erstellen.
+
+73 und mit der Bitte um Verständnis  
+VK2UTL, DK1UT
 
 
 ### Vorgehen
