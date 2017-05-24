@@ -47,8 +47,18 @@ with open('calls-anon.csv', 'w') as csvfile:
     		#if i < len(res)-1:
     		#	label = label + "<br><br>"
     	
-    	label = "Anzahl Stationen: " + str(len(res)) + " (" + str(Acount) + " A, " + str(Ecount) + " E)"
-    	label = label + "<br><br>Anonymisierte Version, daher keine näheren Informationen sichtbar.<br>Für weitere Informationen siehe Rufzeichenliste<br>der BNetzA zu dieser Adresse oder siehe<br><a href=\"https://thielul.github.io/CallmapGermany/\">https://thielul.github.io/CallmapGermany/</a><br>zu Informationen zur Erstellung der vollständigen Karte"
+    	label = "Anzahl Stationen: " + str(len(res)) + " (" + str(Acount) + " Klasse A, " + str(Ecount) + " Klasse E)"
+    	label = label + """
+<br><br>
+Anonymisierte Version, daher keine näheren
+Informationen zu den Stationen sichtbar. Für
+weitere Informationen (Call, Name, Adresse) 
+siehe Rufzeichenliste der BNetzA zu dieser 
+Adresse (PDF Suche) oder siehe<br>
+<a href=\"https://thielul.github.io/CallmapGermany/\">https://thielul.github.io/CallmapGermany/</a>
+<br>
+zu Informationen zur Erstellung einer eige-
+nen vollständigen Karte."""
     	
     	label = label + "</div>"
     	    	    		
