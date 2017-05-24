@@ -8,7 +8,7 @@ von [Ulrich Thiel, VK2UTL/DK1UT](mailto:u-thiel@gmx.net)
 
 Neben wirklich **sehr vielen positiven** Kommentaren (vielen Dank dafür) gab es vereinzelt Beschwerden bezüglich des Datenschutz. Die Daten stammten 1:1 aus der [öffentlichen PDF-Datei der Bundesnetzagentur](https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/Amateurfunk/Rufzeichenliste/Rufzeichenliste_AFU.html), und es gab hier dennoch nie eine Möglichkeit zum Download von Daten. Da ich aber anderweitig relativ beschäftigt bin und auf die Diskussion keinen Wert lege, habe ich mich entschlossen, die Karte ganz zu entfernen. Die Idee sollte jetzt aber klar sein und mit der Anleitung auf [https://thielul.github.io/CallmapGermany/](https://thielul.github.io/CallmapGermany/) kann sich jeder selbst eine vollständige Datenbank und Karte erstellen.
 
-73 und mit der Bitte um Verständnis
+73 und mit der Bitte um Verständnis  
 VK2UTL/DK1UT
 
 
