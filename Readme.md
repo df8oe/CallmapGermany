@@ -6,9 +6,11 @@ von [Ulrich Thiel, VK2UTL/DK1UT](mailto:u-thiel@gmx.net)
 
 
 
-Neben wirklich **sehr vielen positiven** Kommentaren (vielen Dank dafür) gab es vereinzelt Beschwerden bezüglich des Datenschutz. Die Daten stammten 1:1 aus der [öffentlichen PDF-Datei der Bundesnetzagentur](https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/Amateurfunk/Rufzeichenliste/Rufzeichenliste_AFU.html), und es gab hier dennoch nie eine Möglichkeit zum Download von Daten. Da ich aber anderweitig relativ beschäftigt bin und auf die Diskussion keinen Wert lege, habe ich mich entschlossen, die Karte ganz zu entfernen. Die Idee sollte jetzt aber klar sein und mit der Anleitung unten kann sich jeder selbst eine vollständige Datenbank und Karte erstellen.
+Neben wirklich **sehr vielen positiven** Kommentaren (vielen Dank dafür) gab es vereinzelt Beschwerden bezüglich des Datenschutz. Die Daten stammten 1:1 aus der [öffentlichen PDF-Datei der Bundesnetzagentur](https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/Amateurfunk/Rufzeichenliste/Rufzeichenliste_AFU.html), und es gab von mir nie eine Möglichkeit zum Download von Daten. Da ich aber anderweitig relativ beschäftigt bin und auf die Diskussion keinen Wert lege, habe ich mich entschlossen, die Karte nach nur knapp einem Tag ganz zu entfernen (sie war nur am 23. Mai sichtbar). Die Idee sollte jetzt aber klar sein und mit der Anleitung unten kann sich jeder selbst eine vollständige Datenbank und Karte erstellen.
 
-73 und mit der Bitte um Verständnis  
+Ich hatte das ganze Projekt an einem Abend zwecks zeitvertreib realisiert, weil ich Python klasse finde und etwas über das Geocoding lernen wollte. Die Idee und meine Skripte dazu sind wirklich extrem simpel. 
+
+73 und mit der Bitte um Verständnis, dass ich meine Zeit effektiver einbringen möchte   
 VK2UTL/DK1UT
 
 
