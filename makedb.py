@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #By Ulrich Thiel, VK2UTL/DK1UT
-#Reads calls.txt and creates call.csv
+#Reads calls.txt and creates calls.db
 
 import re
 import sqlite3
 import sys
 
-
+# Fixing characters
 def fix(str):
 	str = re.sub("u\"", "ü", str)
 	str = re.sub("o\"", "ö", str)
@@ -22,6 +22,7 @@ def fix(str):
 	str = re.sub("[1-6][\s]*Liste der.*Klubstation", "", str)
 	return str
 	
+# Fixing city names
 def fixCity(str):
 	#insert dash
 	pos = re.search("[a-z][A-Z]",str)
@@ -47,7 +48,6 @@ with open('calls.txt') as f:
 				call = call + line	
 
 calls.append(fix(call)) #flush
-
 
 #now process data
 dbconn = sqlite3.connect('calls.db')
