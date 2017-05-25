@@ -66,7 +66,7 @@ python makedb.py
 
 erstellen. Dieses Skript geht die Text-Datei ```calls.txt``` zeilenweise durch, extrahiert die relevanten Daten, und speichert sie in die SQLite-Datenbank ```calls.db```. Dieser Teil ist natürlich am schwierigsten zu Programmieren. Ich verwende zum Parsen reguläre Ausdrücke. Es gibt leider ein paar Formatierfehler in der Rufzeichenliste selbst, die ich im Skript auch berücksichtigen muss. 
 
-Die Datenbank selbst kann man sich z.B. mit dem netten Tool [SQLite Browser](http://sqlitebrowser.org) anschauen (im Tab *Browse Data*). Die Spakten der Datenbank sind:
+Die Datenbank selbst kann man sich z.B. mit dem netten Tool [SQLite Browser](http://sqlitebrowser.org) anschauen (im Tab *Browse Data*). Die Spalten der Datenbank sind:
 
 ```
 Id, Callsign, Class, Category, Name, Street, Zip, City, Lng,  Lat, Geocode, Visible
@@ -133,7 +133,7 @@ zunächst sämtliche Standorte sammle. In einem zweiten Schritt werden für jede
 
 ## Google Fusion Tables
 
-Jetzt haben wir alles zusammen für die Visualisierung der Daten. Wir erstellen jetzt eine [Google Fusion Table](https://fusiontables.google.com). Dazu benötigt man einen Google-Account und klickt bei dem gerade genannten Link auf *Create a fusion table*. Dann kann man die erstellte CSV-Datei ```calls.csv``` hochladen. Bei erfolgreichem Import (es sollte eigentlich keine Probleme geben), kan man auf *Map of Lat* klicken und sieht sofort die Punkte visualisiert. Man kann jetzt noch unter *Change map styles* auf *Column* gehen und dort die Spalte *Marker* selektieren. Dann werden unsere individuellen Markierungen übernommen. Weiterhin kann man unter *Change info window* auf *Custom* klicken und dort *{Label}* eingeben, sodass unser individuell erstelltes Label verwendet wird. Fertig!
+Jetzt haben wir alles zusammen für die Visualisierung der Daten: wir erstellen eine [Google Fusion Table](https://fusiontables.google.com). Dazu benötigt man einen Google-Account und klickt bei dem gerade genannten Link auf *Create a fusion table*. Dann kann man die erstellte CSV-Datei ```calls.csv``` hochladen. Bei erfolgreichem Import (es sollte eigentlich keine Probleme geben), kan man auf *Map of Lat* klicken und sieht sofort die Punkte visualisiert. Man kann jetzt noch unter *Change map styles* auf *Column* gehen und dort die Spalte *Marker* selektieren. Dann werden unsere individuellen Markierungen übernommen. Weiterhin kann man unter *Change info window* auf *Custom* klicken und dort *{Label}* eingeben, sodass unser individuell erstelltes Label verwendet wird. Fertig!
 
 ### Zu erledigen
 
