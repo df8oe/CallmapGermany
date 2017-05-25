@@ -135,6 +135,8 @@ zunächst sämtliche Standorte sammle. In einem zweiten Schritt werden für jede
 
 Jetzt haben wir alles zusammen für die Visualisierung der Daten: wir erstellen eine [Google Fusion Table](https://fusiontables.google.com). Dazu benötigt man einen Google-Account und klickt bei dem gerade genannten Link auf *Create a fusion table*. Dann kann man die erstellte CSV-Datei ```calls.csv``` hochladen. Bei erfolgreichem Import (es sollte eigentlich keine Probleme geben), kan man auf *Map of Lat* klicken und sieht sofort die Punkte visualisiert. Man kann jetzt noch unter *Change map styles* auf *Column* gehen und dort die Spalte *Marker* selektieren. Dann werden unsere individuellen Markierungen übernommen. Weiterhin kann man unter *Change info window* auf *Custom* klicken und dort *{Label}* eingeben, sodass unser individuell erstelltes Label verwendet wird. Fertig!
 
+Wie ich ganz oben erläuterte, ist meine Visualisierung nur privat und nicht öffentlich zu sehen.
+
 ### Zu erledigen
 
 1. Andere Dienste ausprobieren (obwohl die Fusion Tables recht genial sind).
