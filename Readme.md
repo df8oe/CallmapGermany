@@ -18,7 +18,7 @@ VK2UTL/DK1UT
 
 Die folgende Anleitung ist an Linux und MacOS Benutzer gerichtet. Unter Windows funktioniert natürlich im Prinzip auch alles, da wir aber ein vernünftiges Terminal benötigen und ich (aus genau diesem Grund) kein Windows benutze, will ich das jetzt hier nicht näher erörtern. Ich denke, es ist wirklich kein großer Aufwand, alles analog unter Windows umzusetzen.
 
-### Quellen
+#### Quellen
 Die Quellen meiner Skripte gibt es auf der [Github Website](https://github.com/thielul/CallmapGermany) des Projekts (oder [hier](https://github.com/thielul/CallmapGermany.git) direkt zum Zip-Archiv). Diese lädt man runter. Es handelt sich dabei um Python2-Skripte.
 
 #### Externe Tools
