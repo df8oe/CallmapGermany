@@ -66,10 +66,11 @@ python makedb.py
 
 erstellen. Dieses Skript geht die Text-Datei ```calls.txt``` zeilenweise durch, extrahiert die relevanten Daten, und speichert sie in die SQLite-Datenbank ```calls.db```. Dieser Teil ist natürlich am schwierigsten zu Programmieren. Ich verwende zum Parsen reguläre Ausdrücke. Es gibt leider ein paar Formatierfehler in der Rufzeichenliste selbst, die ich im Skript auch berücksichtigen muss. 
 
-Die Datenbank selbst kann man sich z.B. mit dem netten Tool [SQLite Browser](http://sqlitebrowser.org) anschauen (im Tab *Browse Data*). Die Struktur der Datenbank ist wie folgt:
+Die Datenbank selbst kann man sich z.B. mit dem netten Tool [SQLite Browser](http://sqlitebrowser.org) anschauen (im Tab *Browse Data*). Die Spakten der Datenbank sind:
 
-| Id  | Callsign  | Class  | Category  | Name  | Street | Zip | City | Lng | Lat | Geocode | Visible |
-|---|---|---|---|---|---|---|---|---|---|---|---|
+```
+Id, Callsign, Class, Category, Name, Street, Zip, City, Lng,  Lat, Geocode, Visible
+```
 
 Die Spalte Id ist einfach nur eine fortlaufende Id, die restlichen Spalten sollten zum Großteil selbsterklärend sein. Hier könnte man natürlich noch weitere Spalten mit Daten hinzufügen. Das nette an SQL ist, dass man ganz leicht sehr komplexe Datenabfragen machen kann, z.B.
 
@@ -80,6 +81,7 @@ SELECT Count(*) FROM Callsigns WHERE City="Berlin"
 ### Zu erledigen
   
 1. Beim Parsen wird es bestimmt noch den einen oder anderen Fehler geben, vielleicht kann das jemand noch verbessern. Ich denke aber, zu 99.9% sollte alles in Ordnung sein.
+2. Die Spalte *Category* wird momentan noch nicht gesetzt. Die Idee wäre, je nach Art der Station (Klubstation, Relais, etc.) die Kategorie zu setzen.
 
 ## Geocoding
 
